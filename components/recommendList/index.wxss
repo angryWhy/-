@@ -1,0 +1,11 @@
+/* components/recommendList/index.wxss */
+.recommendItem{
+    height: 170rpx;
+    width: 176rpx;
+}
+.img{
+    width: 64rpx;
+}
+.recommendTitle{
+    line-height: 40rpx;
+}

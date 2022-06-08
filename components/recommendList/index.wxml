@@ -1,0 +1,7 @@
+<!--components/recommendList/index.wxml-->
+<block>
+    <view class="recommendItem">
+    <image src="{{item.imgSrc}}" class="img" mode="widthFix"></image>
+    </view>
+    <view class="recommendTitle">{{item.title}}</view>
+</block>

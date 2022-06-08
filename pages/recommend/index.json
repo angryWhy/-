@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText":"热门推荐",
+  "usingComponents": {
+    "van-search": "@vant/weapp/search/index",
+    "recommend-list":"../../components/recommendList/index"
+  }
+}

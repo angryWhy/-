@@ -1,0 +1,51 @@
+{
+    "pages": [
+        "pages/recommend/index",
+        "pages/paint/index",
+        "pages/books/index",
+        "pages/mine/index",
+        "pages/equip/index"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Weixin",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/recommend/index",
+                "text": "推荐",
+                "iconPath": "assets/img/绘本馆/编组_3.png",
+                "selectedIconPath": "assets/img/home/编组 6@2x.png"
+            },
+            {
+              "pagePath": "pages/paint/index",
+              "text": "绘本馆",
+              "iconPath": "assets/img/home/编组_1@2x.png",
+              "selectedIconPath": "assets/img/paint/编组 8@2x (1).png"
+          },
+          {
+              "pagePath": "pages/books/index",
+              "text": "书架",
+              "iconPath": "assets/img/home/编组 8@2x.png",
+              "selectedIconPath": "assets/img/books/编组 8@2x (1).png"
+          },
+          {
+              "pagePath": "pages/equip/index",
+              "text": "装备",
+              "iconPath": "assets/img/home/编组备份 7_1@2x.png",
+              "selectedIconPath": "assets/img/home/编组备份 7@2x.png"
+          },
+          {
+              "pagePath": "pages/mine/index",
+              "text": "我的",
+              "iconPath": "assets/img/home/编组@2x.png",
+              "selectedIconPath": "assets/img/mine/编组@2x.png"
+          }
+        ]
+    }, 
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

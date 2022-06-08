@@ -1,0 +1,20 @@
+/* pages/recommend/index.wxss */
+page{
+    padding: 0 20rpx;
+    box-sizing: border-box;
+}
+.swiper-item{
+
+}
+.swiper{
+    border-radius: 15rpx;
+    overflow: hidden;
+    transform: translateY(0);
+}
+.swiper-image{
+    width: 100%;
+}
+.recommendList{
+    display: flex;
+    flex-wrap: wrap;
+}
