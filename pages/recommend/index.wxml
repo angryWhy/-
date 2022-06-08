@@ -8,7 +8,8 @@
     </block>
 </swiper>
 <view class="recommendList">
-    <view wx:for="{{recommend}}" wx:key="{{title}}">
+    <view wx:for="{{recommend}}" wx:key="*this">
         <recommend-list item="{{item}}"></recommend-list>
     </view>
 </view>
+<nav-bar title="热门推荐"></nav-bar>

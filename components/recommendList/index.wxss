@@ -2,10 +2,13 @@
 .recommendItem{
     height: 170rpx;
     width: 176rpx;
+    position: relative;
+    top: 15rpx;
 }
 .img{
     width: 64rpx;
 }
 .recommendTitle{
     line-height: 40rpx;
+    font-size: 28rpx;   
 }

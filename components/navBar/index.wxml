@@ -1,0 +1,7 @@
+<!--components/navBar/index.wxml-->
+<view class="nav">
+    <view class="navBarItem">
+        <view class="navRight">{{title}}</view>
+        <view class="navLeft">更多</view>
+    </view>
+</view>

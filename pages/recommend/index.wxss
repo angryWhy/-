@@ -17,4 +17,7 @@ page{
 .recommendList{
     display: flex;
     flex-wrap: wrap;
+    margin-top: 32rpx;
+    justify-content: space-around;
+    text-align: center;
 }

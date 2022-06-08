@@ -38,7 +38,7 @@ Page({
                 title:"成长伙伴",
                 imgSrc:"../../assets/img/home/编组 16@2x.png"
             }
-        ]
+        ],
     },
 
     /**
