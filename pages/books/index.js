@@ -5,7 +5,32 @@ Page({
      * 页面的初始数据
      */
     data: {
-
+        recommendItemList:[
+            {
+               src:"../../assets/img/home/位图_4@2x.png",
+               desc:"简笔画第3季游…" 
+            },
+            {
+                src:"../../assets/img/home/位图_2@2x.png",
+                desc:"植物大战僵尸之…"
+            },
+            {
+                src:"../../assets/img/home/位图_3@2x.png",
+                desc:"双语乐读之中英…"
+            },
+            {
+                src:"../../assets/img/home/位图备份 3@2x.png",
+                desc:"我有一只霸王龙…"
+            },
+            {
+                src:"../../assets/img/home/位图备份.png",
+                desc:"简笔画第2季笔下…"
+            },
+            {
+                src:"../../assets/img/home/位图备份 2@2x.png",
+                desc:"睡前听伊索讲故…"
+            }
+        ]
     },
 
     /**

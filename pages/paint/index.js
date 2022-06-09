@@ -25,16 +25,16 @@ Page({
         ],
         paintShowList:[
             {
-                imageSrc:"../../assets/img/paint/first.png",
+                imageSrc:"../../../assets/img/paint/first.png",
                 desc:"简笔画第3季游乐园有什么",
                 simpleDes:"教你画出游乐园里有什么",
                 sortPic:[ 
-                    "../../assets/img/paint/编组备份 3.png",
-                    "../../assets/img/paint/编组备份 4.png"
+                    "../../../assets/img/paint/编组备份 3.png",
+                    "../../../assets/img/paint/编组备份 4.png"
                 ]
             },
             {
-                imageSrc:"../../assets/img/paint/second.png",
+                imageSrc:"../../../assets/img/paint/second.png",
                 desc:"双语乐读之中英联读系列1",
                 simpleDes:"小小英语，天天动听",
                 sortPic:[
@@ -42,7 +42,7 @@ Page({
                 ]
             },
             {
-                imageSrc:"../../assets/img/paint/thrid.png",
+                imageSrc:"../../../assets/img/paint/thrid.png",
                 desc:"简笔画第2季笔下美食",
                 simpleDes:"让我们一起来画点好吃的",
                 sortPic:[
@@ -50,7 +50,7 @@ Page({
                 ]
             },
             {
-                imageSrc:"../../assets/img/paint/fourth.png",
+                imageSrc:"../../../assets/img/paint/fourth.png",
                 desc:"植物大战僵尸之美德故事1",
                 simpleDes:"在故事中学习美德",
                 sortPic:[

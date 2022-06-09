@@ -1,1 +1,35 @@
 /* pages/books/index.wxss */
+.recommendList{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 32rpx;
+    justify-content: space-around;
+    text-align: center;
+}
+.recommendItemList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top:32rpx ;
+}
+.tabContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.tabLeft{
+    font-size: 28rpx;
+    line-height: 40rpx;
+}
+.tabRight{
+    padding-right: 32rpx;
+}
+.active{
+    color:#FA6400;
+}
+.item{
+    padding-left: 32rpx;
+}
+.managePic{
+    width: 20rpx;
+    padding-right:16rpx ;
+}

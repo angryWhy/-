@@ -1,2 +1,17 @@
-<!--pages/books/index.wxml-->
-<text>pages/books/index.wxml</text>
+<van-search shape="round" placeholder="请输入搜索内容" />
+<view class="tabContainer">
+<view class="tabLeft">
+<span class="active item">全部图书</span>
+<span class="item">可读图书</span>
+<span class="item">收藏图书</span>
+</view>
+<view class="tabRight">
+<image src="../../assets/img/paint/编组.png" class="managePic" mode="widthFix"></image>
+<span>管理</span>
+</view>
+</view>
+<view class="recommendItemList">
+    <view wx:for="{{recommendItemList}}" wx:key="*this">
+        <recommend-item item="{{item}}"></recommend-item>
+    </view>
+</view>

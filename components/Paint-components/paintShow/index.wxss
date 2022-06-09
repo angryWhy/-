@@ -1,1 +1,29 @@
 /* components/Paint-components/paintShow/index.wxss */
+.imgItem{
+    width: 152rpx;
+    height: 192rpx;
+}
+.paint{
+    margin-left: 32rpx;
+    margin-top: 32rpx;
+    
+}
+.left{
+    display: inline-block;
+    vertical-align:top;
+    padding-left: 32rpx;
+}
+.right{
+    display: inline-block;
+}
+.desTop{
+    font-size: 28rpx;
+    line-height: 40rpx;
+    padding-top: 6rpx;
+}
+.desMiddle{
+    padding-top: 32rpx;
+    font-size: 24rpx;
+    line-height: 34rpx;
+    color: #6D7278;
+}
