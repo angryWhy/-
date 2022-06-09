@@ -1,6 +1,6 @@
 /* pages/recommend/index.wxss */
 page{
-    padding: 0 20rpx;
+    padding: 0 10rpx;
     box-sizing: border-box;
 }
 .swiper-item{

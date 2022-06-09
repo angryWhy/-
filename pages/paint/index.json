@@ -1,3 +1,7 @@
 {
-  "usingComponents": {}
+  "navigationBarTitleText":"绘馆本",
+  "usingComponents": {
+    "van-search": "@vant/weapp/search/index",
+    "sort":"../../components/Paint-components/sort/index"
+  }
 }

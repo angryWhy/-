@@ -1,0 +1,7 @@
+<!--components/Paint-components/sortAge/index.wxml-->
+<view class="sortRow">
+    <image src="../../../assets/img/paint/all.png" class="topImage"></image>
+    <view wx:for="{{sortItem}}" wx:key="*this">
+    <span class="sortTitle">{{item}}</span>
+    </view>
+</view>

@@ -1,7 +1,7 @@
 {
     "pages": [
-        "pages/recommend/index",
         "pages/paint/index",
+        "pages/recommend/index",
         "pages/books/index",
         "pages/mine/index",
         "pages/equip/index"

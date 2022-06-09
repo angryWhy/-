@@ -1,1 +1,8 @@
 /* pages/paint/index.wxss */
+.showMoreImg{
+    height: 40rpx;
+    width: 210rpx;
+}
+.showMore{
+    text-align: center;
+}

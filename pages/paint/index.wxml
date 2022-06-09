@@ -1,2 +1,10 @@
 <!--pages/paint/index.wxml-->
-<text>pages/paint/index.wxml</text>
+<van-search shape="round" placeholder="请输入搜索内容"></van-search>
+<view class="sortList">
+    <view wx:for="{{sortList}}" wx:key="*this">
+        <sort sortItem="{{item}}"></sort>
+    </view>
+</view>
+<view class="showMore">
+    <image src="../../assets/img/paint/编组 2.png" mode="widthFix" class="showMoreImg"></image>
+</view>

@@ -1,0 +1,16 @@
+/* components/Paint-components/sortAge/index.wxss */
+.topImage{
+    margin-left: 36rpx;
+    margin-bottom: 26rpx;
+    height: 54rpx;
+    width: 102rpx;
+}
+.sortRow{
+    display: flex;
+    
+}
+.sortTitle{
+    margin-left: 32rpx;
+    font-size: 28rpx;
+    line-height: 40rpx;
+}
