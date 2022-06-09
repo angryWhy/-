@@ -1,0 +1,12 @@
+/* components/recommendItem/index.wxss */
+.imgItem{
+    width: 208rpx;
+    height: 264rpx;
+}
+.desc{
+line-height: 34rpx;
+font-size: 24rpx;
+}
+.recommendItem{
+    margin-bottom: 24rpx;
+}

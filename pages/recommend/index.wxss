@@ -21,3 +21,12 @@ page{
     justify-content: space-around;
     text-align: center;
 }
+.recommendItemList,.popularSaleList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top:32rpx ;
+}
+.navPopular{
+    margin-top: 60rpx;
+}

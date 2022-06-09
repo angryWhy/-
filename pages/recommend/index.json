@@ -3,6 +3,8 @@
   "usingComponents": {
     "van-search": "@vant/weapp/search/index",
     "recommend-list":"../../components/recommendList/index",
-    "nav-bar":"../../components/navBar/index"
+    "nav-bar":"../../components/navBar/index",
+    "recommend-item":"../../components/recommendItem/index",
+    "popular-sale":"../../components/popularSale/index"
   }
 }

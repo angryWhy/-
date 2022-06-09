@@ -1,0 +1,14 @@
+<!--components/popularSale/index.wxml-->
+<view class="popularItem">
+    <view>
+        <image src="{{item.src}}" class="imgItem" mode="widthFix"></image>
+    </view>
+    <view>
+        <span class="desc">
+            {{item.desc}}
+        </span>
+        <view class="simpleDesc">
+            {{item.simpleDesc}}
+        </view>
+    </view>
+</view>

@@ -1,0 +1,16 @@
+/* components/popularSale/index.wxss */
+.imgItem{
+    width: 328rpx;
+    height: 328rpx;
+}
+.desc{
+line-height: 40rpx;
+font-size: 28rpx;
+}
+.simpleDesc{
+    line-height: 34rpx;
+    font-size: 24rpx;
+}
+.popularItem{
+    margin-bottom: 24rpx;
+}

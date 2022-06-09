@@ -1,15 +1,32 @@
 <!--pages/recommend/index.wxml-->
+<!-- 搜索栏 -->
 <van-search shape="round" placeholder="请输入搜索内容" />
+<!-- 轮播图，暂未兼容 -->
 <swiper indicator-dots autoplay circular class="swiper" style="height:{{height}}px">
     <block>
         <swiper-item class="swiper-item">
-            <image src="../../assets/img/home/位图.png" class="swiper-image" mode="widthFix" bindload="handleImageLoading" />
+            <image src="../../assets/img/home/swiper.png" class="swiper-image" mode="widthFix" bindload="handleImageLoading" />
         </swiper-item>
     </block>
 </swiper>
+<!-- 8个专区 -->
 <view class="recommendList">
     <view wx:for="{{recommend}}" wx:key="*this">
         <recommend-list item="{{item}}"></recommend-list>
     </view>
 </view>
+<!-- 热门推荐 -->
 <nav-bar title="热门推荐"></nav-bar>
+<!-- 热门推荐选项 -->
+<view class="recommendItemList">
+    <view wx:for="{{recommendItemList}}" wx:key="*this">
+        <recommend-item item="{{item}}"></recommend-item>
+    </view>
+</view>
+<!-- 全网畅销佳作 -->
+<nav-bar title="全网畅销佳作" class="navPopular"></nav-bar>
+<view class="popularSaleList">
+    <view wx:for="{{popularSaleList}}" wx:key="*this">
+        <popular-sale item="{{item}}"></popular-sale>
+    </view>
+</view>
