@@ -8,3 +8,8 @@
 <view class="showMore">
     <image src="../../assets/img/paint/编组 2.png" mode="widthFix" class="showMoreImg"></image>
 </view>
+<view class="paintList">
+    <view wx:for="{{paintShowList}}" wx:key="*this">
+        <paint-show item="{{item}}"></paint-show>
+    </view>
+</view>

@@ -1,2 +1,6 @@
 <!--components/Paint-components/paintShow/index.wxml-->
-<text>components/Paint-components/paintShow/index.wxml</text>
+<view class="paint">
+    <view class="right">
+        <image src="{{item.imageSrc}}" mode="widthFix"></image>
+    </view>
+</view>
